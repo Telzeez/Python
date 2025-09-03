@@ -1,0 +1,21 @@
+import time module
+import isleap from calendar module
+input name
+input age
+calculate birth year from age and current year
+initialize result = 0
+
+for year in range(birth year, current year):
+    if isleap(year):
+        result += 366
+    else:
+        result += 365
+
+get current month and day
+for month in range(1, current month):
+    add number of days in month to result (handle leap year for February)
+
+add current day to result
+print result
+
+
